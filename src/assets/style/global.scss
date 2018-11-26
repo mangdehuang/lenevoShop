@@ -5,3 +5,145 @@
   justify-content: center;
   align-items: center;
 }
+
+input::-webkit-input-placeholder {
+  color: #AAAAAA;
+}
+
+input:focus::-webkit-input-placeholder {
+  color: #EEEEEE;
+}
+
+a,
+button,
+input {
+  -webkit-tap-highlight-color: rgba(255, 0, 0, 0);
+}
+
+body {
+  -webkit-text-size-adjust: none;
+  font-family: "Helvetica Neue",
+    Helvetica,
+    STHeiTi,
+    Arial,
+    sans-serif;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p,
+pre,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+th,
+td,
+form,
+fieldset,
+legend,
+button,
+input,
+textarea,
+figure,
+figcaption,
+nav,
+footer,
+menu,
+blockquote {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+address,
+em,
+i,
+b {
+  font-style: normal;
+}
+
+a,
+a:hover,
+a:active,
+a:visited {
+  color: #576B95;
+  text-decoration: none;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+fieldset,
+img {
+  border: 0;
+}
+
+html {
+  font-size: 100%;
+}
+
+button,
+input,
+select,
+textarea {
+  font: 16px/1.5 "Helvetica Neue", Helvetica, STHeiTi, sans-serif;
+  outline: none;
+}
+
+textarea,
+input {
+  background: none;
+  border-radius: 0;
+  -webkit-appearance: none;
+  resize: none;
+}
+
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+body {
+  word-wrap: break-word;
+  font: 16px/1.5 "Helvetica Neue", Helvetica, STHeiTi, sans-serif;
+  color: #fff;
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+* {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  box-sizing: border-box;
+}
+
+select {
+  -webkit-appearance: none;
+  appearance: none;
+}

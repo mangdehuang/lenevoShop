@@ -6,8 +6,7 @@
 
 <script>
 var html = document.documentElement;
-var width = html.getBoundingClientRect().widht;
-html.style.fontSize = width / 15 + "px";
+html.style.fontSize = window.screen.width / 15 + "px";
 export default {
   name: "App"
 };
