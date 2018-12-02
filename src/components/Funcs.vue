@@ -28,25 +28,25 @@ export default {
 .Funcs {
   display: flex;
   height: 3.2rem;
-  background: red;
+  background: #fff;
   position: relative;
-  top: 6rem;
   .content {
     display: flex;
     justify-content: space-around;
     width: 100%;
+    border-bottom: 1px solid #e5e5e5;
     align-items: center;
     .item {
       display: flex;
       flex-direction: column;
-      .pic{
+      .pic {
         width: 1.6rem;
         height: 1.6rem;
       }
-      .title{
+      .title {
         text-align: center;
+        color: #9f9f9f;
       }
-      
     }
   }
 }

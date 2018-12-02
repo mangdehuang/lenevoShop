@@ -1,17 +1,20 @@
 <template>
   <div>
     <Header></Header>
-    <Funcs></Funcs>
+    <Content></Content>
+    <Bottom></Bottom>
   </div>
 </template>
 <script>
 import Header from "./Header.vue";
-import Funcs from "./Funcs.vue";
+import Content from "./Content";
+import Bottom from "./Bottom";
 export default {
   name: "Home",
   components: {
     Header,
-    Funcs
+    Content,
+    Bottom
   }
 };
 </script>
